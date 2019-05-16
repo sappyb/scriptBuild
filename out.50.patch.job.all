@@ -1,0 +1,1140 @@
+/g/g92/bhowmik1/installCodePatch/Tracer-master/TraceR/tracer/tracer-scripts/../traceR --sync=3 --nkp=2000 --extramem=10000000 --max-opt-lookahead=1000000 --avl-size=21 --lp-io-dir=./counters.50.patch.job.all -- ./net-configs/quartz.conf ./config_50.all 
+
+Sun Apr 28 14:20:45 2019
+
+ROSS Revision: 297d29c8d9dba9f2d25e79c286abfb58e59304f0
+
+tw_net_start: Found world size to be 16 
+Config file is ./net-configs/quartz.conf
+Trace input file is ./config_50.all
+NIC num copy queues not specified, setting to 1
+FT type is 0
+FT num levels is 3
+FT tapering is 2.000000
+Pods 4; L2 pods 2; Link repetition:8; l1_set_size 16
+num_switches[0]=96
+num_switches[1]=64
+num_switches[2]=48
+FT packet size is 4096
+FT num rails is 1
+FT router delay is 100.0
+FT buffer size links is 32768
+FT buffer size injection is 32768
+FT routing is 1
+FT rail selection is 1
+FT rail select limit  is 8192
+FT bandwidths link 11.9 node 11.9
+within node transfer per byte delay is 0.100000
+Found soft_delay as 1000.000000
+Found nic_delay as 500.000000
+Found rdma_delay as 4500.000000
+Copy cost per byte is 0.023000 ns
+Eager limit is 64000.000000 bytes
+Begin reading ./config_50.all
+Using default linear mapping of jobs
+Job 0 - ranks 32, trace folder /p/lustre1/bhowmik1/kripke/32/traces.otf2, rank file NA, iters 50
+Job 1 - ranks 128, trace folder /p/lustre1/bhowmik1/laghos/128/traces.otf2, rank file NA, iters 10
+Job 2 - ranks 256, trace folder /p/lustre1/bhowmik1/subcom3d-a2a/256/traces.otf2, rank file NA, iters 5
+Job 3 - ranks 512, trace folder /p/lustre1/bhowmik1/laghos/512/traces.otf2, rank file NA, iters 10
+Job 4 - ranks 128, trace folder /p/lustre1/bhowmik1/subcom3d-a2a/128/traces.otf2, rank file NA, iters 5
+Job 5 - ranks 256, trace folder /p/lustre1/bhowmik1/stencil4d/256/traces.otf2, rank file NA, iters 5
+Job 6 - ranks 128, trace folder /p/lustre1/bhowmik1/subcom3d-a2a/128/traces.otf2, rank file NA, iters 5
+Job 7 - ranks 512, trace folder /p/lustre1/bhowmik1/laghos/512/traces.otf2, rank file NA, iters 10
+Job 8 - ranks 32, trace folder /p/lustre1/bhowmik1/laghos/32/traces.otf2, rank file NA, iters 10
+Job 9 - ranks 128, trace folder /p/lustre1/bhowmik1/stencil4d/128/traces.otf2, rank file NA, iters 5
+Job 10 - ranks 128, trace folder /p/lustre1/bhowmik1/stencil4d/128/traces.otf2, rank file NA, iters 5
+Job 11 - ranks 128, trace folder /p/lustre1/bhowmik1/laghos/128/traces.otf2, rank file NA, iters 10
+Done reading meta-information about jobs
+Will make all events with name scale_all run for 10.000000 s for job 0; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 1; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 2; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 3; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 4; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 5; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 6; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 7; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 8; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 9; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 10; if scale_all, events will be scaled down
+Will make all events with name scale_all run for 10.000000 s for job 11; if scale_all, events will be scaled down
+Read global definition for job 0 from /p/lustre1/bhowmik1/kripke/32/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 1 from /p/lustre1/bhowmik1/laghos/128/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 2 from /p/lustre1/bhowmik1/subcom3d-a2a/256/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 3 from /p/lustre1/bhowmik1/laghos/512/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 4 from /p/lustre1/bhowmik1/subcom3d-a2a/128/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 5 from /p/lustre1/bhowmik1/stencil4d/256/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 6 from /p/lustre1/bhowmik1/subcom3d-a2a/128/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 7 from /p/lustre1/bhowmik1/laghos/512/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 8 from /p/lustre1/bhowmik1/laghos/32/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 9 from /p/lustre1/bhowmik1/stencil4d/128/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 10 from /p/lustre1/bhowmik1/stencil4d/128/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+Read global definition for job 11 from /p/lustre1/bhowmik1/laghos/128/traces.otf2
+Clock Props: 1600000000 1000000000 0.625000
+
+ROSS Core Configuration: 
+	Total Nodes                                                 16
+	Total Processors                                   [Nodes (16) x PE_per_Node (1)] 16
+	Total KPs                                          [Nodes (16) x KPs (2000)] 32000
+	Total LPs                                                 6432
+	Simulation End Time                                18000000000000.00
+	LP-to-PE Mapping                                   model defined
+
+
+ROSS Event Memory Allocation:
+	Model events                                          10102913
+	Network events                                              16
+	Total events                                            102928
+
+*** START PARALLEL OPTIMISTIC SIMULATION WITH SUSPEND LP FEATURE ***
+
+PE0 - LP_GID:4690 : START SIMULATION, TASKS COUNT: 26284, FIRST TASK: 0, RUN TIME TILL NOW=4.000000 s, CURRENT SIM TIME 0.113619
+PE0 - LP_GID:0 : START SIMULATION, TASKS COUNT: 199, FIRST TASK: 0, RUN TIME TILL NOW=1.000000 s, CURRENT SIM TIME 1.005877
+[ 0 0 : time at task 0/199 0.000000 ]
+[ 1 0 : time at task 0/26284 0.000000 ]
+[ 2 0 : time at task 0/95 0.000000 ]
+[ 3 0 : time at task 0/26284 0.000000 ]
+Set num_servers per router 32, servers per injection queue per router 32, servers per node copy queue per node 1
+[ 4 0 : time at task 0/95 0.000000 ]
+[ 2 0 : Begin TRACER_WallTime_a2a 0.000005 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 0.000006 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 0.000006 ]
+[ 8 0 : time at task 0/26284 0.000000 ]
+[ 9 0 : time at task 0/545 0.000000 ]
+[ 10 0 : time at task 0/545 0.000000 ]
+[ 11 0 : time at task 0/26284 0.000000 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d 0.000006 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 0.000006 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d 0.000006 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 0.000007 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.000008 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.000008 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 0.000008 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 0.000008 ]
+[ 5 0 : time at task 0/545 0.000000 ]
+[ 6 0 : time at task 0/95 0.000000 ]
+[ 7 0 : time at task 0/26284 0.000000 ]
+[ 6 0 : Begin TRACER_WallTime_a2a 0.000005 ]
+[ 4 0 : Begin TRACER_WallTime_a2a 0.000005 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d 0.000006 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 0.000006 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.000007 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.000007 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 0.000007 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.000007 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 0.000008 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 0.000010 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 0.000008 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.000007 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 0.000008 ]
+[ 6 0 : End TRACER_WallTime_a2a_region 0.008164 ]
+[ 4 0 : End TRACER_WallTime_a2a_region 0.008164 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.008219 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.008219 ]
+[ 6 0 : Begin TRACER_WallTime_a2a 0.008220 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.008222 ]
+[ 4 0 : Begin TRACER_WallTime_a2a 0.008221 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.008222 ]
+[ 2 0 : End TRACER_WallTime_a2a_region 0.015317 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.015375 ]
+[ 2 0 : Begin TRACER_WallTime_a2a 0.015377 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.015378 ]
+[ 6 0 : End TRACER_WallTime_a2a_region 0.016379 ]
+[ 4 0 : End TRACER_WallTime_a2a_region 0.016379 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.016434 ]
+[ 6 0 : Begin TRACER_WallTime_a2a 0.016435 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.016437 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.016434 ]
+[ 4 0 : Begin TRACER_WallTime_a2a 0.016435 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.016437 ]
+[ 6 0 : End TRACER_WallTime_a2a_region 0.024593 ]
+[ 4 0 : End TRACER_WallTime_a2a_region 0.024593 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.024648 ]
+[ 6 0 : Begin TRACER_WallTime_a2a 0.024650 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.024652 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.024648 ]
+[ 4 0 : Begin TRACER_WallTime_a2a 0.024650 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.024652 ]
+[ 9 0 : End TRACER_WallTime_stencil4d_region 0.026682 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.026732 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d 0.026734 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.026736 ]
+[ 10 0 : End TRACER_WallTime_stencil4d_region 0.027159 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.027209 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d 0.027211 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.027213 ]
+[ 5 0 : End TRACER_WallTime_stencil4d_region 0.028715 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.028766 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d 0.028768 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.028769 ]
+[ 2 0 : End TRACER_WallTime_a2a_region 0.030688 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.030746 ]
+[ 2 0 : Begin TRACER_WallTime_a2a 0.030747 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.030749 ]
+[ 6 0 : End TRACER_WallTime_a2a_region 0.032808 ]
+[ 4 0 : End TRACER_WallTime_a2a_region 0.032809 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.032863 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.032864 ]
+[ 6 0 : Begin TRACER_WallTime_a2a 0.032865 ]
+[ 4 0 : Begin TRACER_WallTime_a2a 0.032865 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.032867 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.032867 ]
+[ 6 0 : End TRACER_WallTime_a2a_region 0.041023 ]
+[ 4 0 : End TRACER_WallTime_a2a_region 0.041024 ]
+[ 6 0 : Begin TRACER_WallTime_a2a_region 0.041078 ]
+[ 6 0 : End TRACER_WallTime_a2a 0.041081 ]
+[ 4 0 : Begin TRACER_WallTime_a2a_region 0.041079 ]
+[ 4 0 : End TRACER_WallTime_a2a 0.041082 ]
+[ 2 0 : End TRACER_WallTime_a2a_region 0.046061 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.046118 ]
+[ 2 0 : Begin TRACER_WallTime_a2a 0.046120 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.046121 ]
+[ 9 0 : End TRACER_WallTime_stencil4d_region 0.056872 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.056923 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d 0.056925 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.056927 ]
+[ 10 0 : End TRACER_WallTime_stencil4d_region 0.057513 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.057564 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d 0.057566 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.057567 ]
+[ 5 0 : End TRACER_WallTime_stencil4d_region 0.060850 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.060901 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d 0.060903 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.060904 ]
+[ 2 0 : End TRACER_WallTime_a2a_region 0.061432 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.061490 ]
+[ 2 0 : Begin TRACER_WallTime_a2a 0.061492 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.061493 ]
+[ 2 0 : End TRACER_WallTime_a2a_region 0.076803 ]
+[ 2 0 : Begin TRACER_WallTime_a2a_region 0.076860 ]
+[ 2 0 : End TRACER_WallTime_a2a 0.076864 ]
+[ 9 0 : End TRACER_WallTime_stencil4d_region 0.086991 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.087041 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d 0.087043 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.087045 ]
+[ 10 0 : End TRACER_WallTime_stencil4d_region 0.087233 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.087283 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d 0.087285 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.087287 ]
+[ 5 0 : End TRACER_WallTime_stencil4d_region 0.093155 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.093206 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d 0.093208 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.093209 ]
+[ 9 0 : End TRACER_WallTime_stencil4d_region 0.117221 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.117272 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d 0.117274 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.117275 ]
+[ 10 0 : End TRACER_WallTime_stencil4d_region 0.117903 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.117954 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d 0.117956 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.117958 ]
+[ 5 0 : End TRACER_WallTime_stencil4d_region 0.125031 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.125081 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d 0.125083 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.125085 ]
+[ 9 0 : End TRACER_WallTime_stencil4d_region 0.147376 ]
+[ 9 0 : Begin TRACER_WallTime_stencil4d_region 0.147427 ]
+[ 9 0 : End TRACER_WallTime_stencil4d 0.147430 ]
+[ 10 0 : End TRACER_WallTime_stencil4d_region 0.147474 ]
+[ 10 0 : Begin TRACER_WallTime_stencil4d_region 0.147525 ]
+[ 10 0 : End TRACER_WallTime_stencil4d 0.147528 ]
+[ 5 0 : End TRACER_WallTime_stencil4d_region 0.157006 ]
+[ 5 0 : Begin TRACER_WallTime_stencil4d_region 0.157057 ]
+[ 5 0 : End TRACER_WallTime_stencil4d 0.157060 ]
+[ 8 0 : time at task 5000/26284 1.061376 ]
+[ 1 0 : time at task 5000/26284 2.092403 ]
+[ 11 0 : time at task 5000/26284 2.092425 ]
+[ 8 0 : time at task 10000/26284 2.422151 ]
+[ 8 0 : time at task 15000/26284 3.777341 ]
+[ 3 0 : time at task 5000/26284 4.141037 ]
+[ 7 0 : time at task 5000/26284 4.141072 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 4.641532 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 4.641578 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 4.641580 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 4.641583 ]
+[ 1 0 : time at task 10000/26284 4.785539 ]
+[ 11 0 : time at task 10000/26284 4.785582 ]
+[ 8 0 : time at task 20000/26284 5.137430 ]
+[ 8 0 : time at task 25000/26284 6.492427 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 6.802869 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 6.802945 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 6.802947 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 6.802948 ]
+[ 1 0 : time at task 15000/26284 7.468837 ]
+[ 11 0 : time at task 15000/26284 7.468903 ]
+[ 8 0 : time at task 5000/26284 7.864244 ]
+[ 8 0 : time at task 10000/26284 9.225020 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 9.283063 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 9.283108 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 9.283110 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 9.283113 ]
+[ 3 0 : time at task 10000/26284 9.498800 ]
+[ 7 0 : time at task 10000/26284 9.498871 ]
+[ 1 0 : time at task 20000/26284 10.162539 ]
+[ 11 0 : time at task 20000/26284 10.162627 ]
+[ 8 0 : time at task 15000/26284 10.580209 ]
+[ 8 0 : time at task 20000/26284 11.940298 ]
+[ 1 0 : time at task 25000/26284 12.846160 ]
+[ 11 0 : time at task 25000/26284 12.846271 ]
+[ 8 0 : time at task 25000/26284 13.295295 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 13.467637 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 13.467730 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 13.467732 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 13.467734 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 13.467760 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 13.467853 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 13.467855 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 13.467856 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 13.605737 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 13.605814 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 13.605815 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 13.605817 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 13.924593 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 13.924639 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 13.924641 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 13.924644 ]
+[ 8 0 : time at task 5000/26284 14.667112 ]
+[ 3 0 : time at task 15000/26284 14.836667 ]
+[ 7 0 : time at task 15000/26284 14.836774 ]
+[ 1 0 : time at task 5000/26284 15.560042 ]
+[ 11 0 : time at task 5000/26284 15.560187 ]
+[ 8 0 : time at task 10000/26284 16.027888 ]
+[ 8 0 : time at task 15000/26284 17.383078 ]
+[ 1 0 : time at task 10000/26284 18.253177 ]
+[ 11 0 : time at task 10000/26284 18.253344 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 18.566123 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 18.566169 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 18.566171 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 18.566174 ]
+[ 8 0 : time at task 20000/26284 18.743166 ]
+[ 8 0 : time at task 25000/26284 20.098163 ]
+[ 3 0 : time at task 20000/26284 20.194540 ]
+[ 7 0 : time at task 20000/26284 20.194683 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 20.408605 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 20.408682 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 20.408684 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 20.408685 ]
+[ 1 0 : time at task 15000/26284 20.936476 ]
+[ 11 0 : time at task 15000/26284 20.936665 ]
+[ 8 0 : time at task 5000/26284 21.469980 ]
+[ 8 0 : time at task 10000/26284 22.830756 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 23.207654 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 23.207699 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 23.207701 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 23.207704 ]
+[ 1 0 : time at task 20000/26284 23.630178 ]
+[ 11 0 : time at task 20000/26284 23.630389 ]
+[ 8 0 : time at task 15000/26284 24.185946 ]
+[ 3 0 : time at task 25000/26284 25.533386 ]
+[ 7 0 : time at task 25000/26284 25.533566 ]
+[ 8 0 : time at task 20000/26284 25.546035 ]
+[ 1 0 : time at task 25000/26284 26.313798 ]
+[ 11 0 : time at task 25000/26284 26.314033 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 26.776852 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 26.776929 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 26.776931 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 26.776932 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 26.777041 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 26.777117 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 26.777119 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 26.777120 ]
+[ 8 0 : time at task 25000/26284 26.901031 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 26.935275 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 26.935369 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 26.935371 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 26.935372 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 26.935521 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 26.935615 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 26.935616 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 26.935618 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 27.211474 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 27.211550 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 27.211552 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 27.211553 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 27.849184 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 27.849229 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 27.849232 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 27.849234 ]
+[ 8 0 : time at task 5000/26284 28.272848 ]
+[ 1 0 : time at task 5000/26284 29.027680 ]
+[ 11 0 : time at task 5000/26284 29.027948 ]
+[ 8 0 : time at task 10000/26284 29.633624 ]
+[ 3 0 : time at task 5000/26284 30.917897 ]
+[ 7 0 : time at task 5000/26284 30.918122 ]
+[ 8 0 : time at task 15000/26284 30.988814 ]
+[ 1 0 : time at task 10000/26284 31.720816 ]
+[ 11 0 : time at task 10000/26284 31.721106 ]
+[ 8 0 : time at task 20000/26284 32.348903 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 32.490714 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 32.490760 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 32.490762 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 32.490765 ]
+[ 8 0 : time at task 25000/26284 33.703899 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 34.014342 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 34.014418 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 34.014420 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 34.014421 ]
+[ 1 0 : time at task 15000/26284 34.404115 ]
+[ 11 0 : time at task 15000/26284 34.404427 ]
+[ 8 0 : time at task 5000/26284 35.075717 ]
+[ 3 0 : time at task 10000/26284 36.275660 ]
+[ 7 0 : time at task 10000/26284 36.275920 ]
+[ 8 0 : time at task 10000/26284 36.436493 ]
+[ 1 0 : time at task 20000/26284 37.097817 ]
+[ 11 0 : time at task 20000/26284 37.098150 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 37.132245 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 37.132290 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 37.132292 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 37.132295 ]
+[ 8 0 : time at task 15000/26284 37.791682 ]
+[ 8 0 : time at task 20000/26284 39.151771 ]
+[ 1 0 : time at task 25000/26284 39.781437 ]
+[ 11 0 : time at task 25000/26284 39.781794 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 40.402914 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 40.403008 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 40.403010 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 40.403011 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 40.403282 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 40.403376 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 40.403378 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 40.403379 ]
+[ 8 0 : time at task 25000/26284 40.506768 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 40.817210 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 40.817286 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 40.817288 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 40.817290 ]
+[ 3 0 : time at task 15000/26284 41.613527 ]
+[ 7 0 : time at task 15000/26284 41.613824 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 41.773775 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 41.773820 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 41.773823 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 41.773825 ]
+[ 8 0 : time at task 5000/26284 41.878585 ]
+[ 1 0 : time at task 5000/26284 42.495319 ]
+[ 11 0 : time at task 5000/26284 42.495709 ]
+[ 8 0 : time at task 10000/26284 43.239361 ]
+[ 8 0 : time at task 15000/26284 44.594550 ]
+[ 1 0 : time at task 10000/26284 45.188455 ]
+[ 11 0 : time at task 10000/26284 45.188867 ]
+[ 8 0 : time at task 20000/26284 45.954639 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 46.415305 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 46.415351 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 46.415353 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 46.415356 ]
+[ 3 0 : time at task 20000/26284 46.971400 ]
+[ 7 0 : time at task 20000/26284 46.971733 ]
+[ 8 0 : time at task 25000/26284 47.309636 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 47.620078 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 47.620155 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 47.620156 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 47.620158 ]
+[ 1 0 : time at task 15000/26284 47.871753 ]
+[ 11 0 : time at task 15000/26284 47.872188 ]
+[ 8 0 : time at task 5000/26284 48.681453 ]
+[ 8 0 : time at task 10000/26284 50.042229 ]
+[ 1 0 : time at task 20000/26284 50.565455 ]
+[ 11 0 : time at task 20000/26284 50.565912 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 51.056836 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 51.056881 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 51.056883 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 51.056886 ]
+[ 8 0 : time at task 15000/26284 51.397419 ]
+[ 3 0 : time at task 25000/26284 52.310246 ]
+[ 7 0 : time at task 25000/26284 52.310615 ]
+[ 8 0 : time at task 20000/26284 52.757508 ]
+[ 1 0 : time at task 25000/26284 53.249076 ]
+[ 11 0 : time at task 25000/26284 53.249556 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 53.553712 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 53.553789 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 53.553790 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 53.553792 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 53.554090 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 53.554167 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 53.554168 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 53.554170 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 53.870553 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 53.870647 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 53.870648 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 53.870650 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 53.871044 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 53.871137 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 53.871139 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 53.871141 ]
+[ 8 0 : time at task 25000/26284 54.112504 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 54.422947 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 54.423023 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 54.423025 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 54.423026 ]
+[ 8 0 : time at task 5000/26284 55.484321 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 55.698366 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 55.698411 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 55.698413 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 55.698416 ]
+[ 1 0 : time at task 5000/26284 55.962958 ]
+[ 11 0 : time at task 5000/26284 55.963471 ]
+[ 8 0 : time at task 10000/26284 56.845097 ]
+[ 3 0 : time at task 5000/26284 57.694756 ]
+[ 7 0 : time at task 5000/26284 57.695171 ]
+[ 8 0 : time at task 15000/26284 58.200287 ]
+[ 1 0 : time at task 10000/26284 58.656094 ]
+[ 11 0 : time at task 10000/26284 58.656628 ]
+[ 8 0 : time at task 20000/26284 59.560376 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 60.339896 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 60.339942 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 60.339944 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 60.339947 ]
+[ 8 0 : time at task 25000/26284 60.915372 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 61.225815 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 61.225891 ]
+[ 8 0 : Begin TRACER_WallTime_laghos 61.225893 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 61.225894 ]
+[ 1 0 : time at task 15000/26284 61.339392 ]
+[ 11 0 : time at task 15000/26284 61.339949 ]
+[ 8 0 : time at task 5000/26284 62.287190 ]
+[ 3 0 : time at task 10000/26284 63.052519 ]
+[ 7 0 : time at task 10000/26284 63.052970 ]
+[ 8 0 : time at task 10000/26284 63.647966 ]
+[ 1 0 : time at task 20000/26284 64.033094 ]
+[ 11 0 : time at task 20000/26284 64.033673 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 64.981426 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 64.981472 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 64.981474 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 64.981477 ]
+[ 8 0 : time at task 15000/26284 65.003155 ]
+[ 8 0 : time at task 20000/26284 66.363244 ]
+[ 1 0 : time at task 25000/26284 66.716715 ]
+[ 11 0 : time at task 25000/26284 66.717317 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 67.338192 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 67.338286 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 67.338287 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 67.338289 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 67.338806 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 67.338899 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 67.338901 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 67.338902 ]
+[ 8 0 : time at task 25000/26284 67.718241 ]
+[ 8 0 : End TRACER_WallTime_laghos_region 68.028683 ]
+[ 8 0 : Begin TRACER_WallTime_laghos_region 68.028759 ]
+[ 8 0 : End TRACER_WallTime_laghos 68.028763 ]
+[ 3 0 : time at task 15000/26284 68.390386 ]
+[ 7 0 : time at task 15000/26284 68.390873 ]
+[ 1 0 : time at task 5000/26284 69.430597 ]
+[ 11 0 : time at task 5000/26284 69.431232 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 69.622957 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 69.623002 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 69.623004 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 69.623007 ]
+[ 1 0 : time at task 10000/26284 72.123733 ]
+[ 11 0 : time at task 10000/26284 72.124390 ]
+[ 3 0 : time at task 20000/26284 73.748260 ]
+[ 7 0 : time at task 20000/26284 73.748782 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 74.264487 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 74.264533 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 74.264535 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 74.264538 ]
+[ 1 0 : time at task 15000/26284 74.807031 ]
+[ 11 0 : time at task 15000/26284 74.807711 ]
+[ 1 0 : time at task 20000/26284 77.500733 ]
+[ 11 0 : time at task 20000/26284 77.501435 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 78.906017 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 78.906063 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 78.906065 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 78.906068 ]
+[ 3 0 : time at task 25000/26284 79.087106 ]
+[ 7 0 : time at task 25000/26284 79.087664 ]
+[ 1 0 : time at task 25000/26284 80.184354 ]
+[ 11 0 : time at task 25000/26284 80.185079 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 80.330571 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 80.330648 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 80.330650 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 80.330651 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 80.331139 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 80.331216 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 80.331218 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 80.331219 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 80.805831 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 80.805925 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 80.805927 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 80.805928 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 80.806567 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 80.806661 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 80.806662 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 80.806664 ]
+[ 1 0 : time at task 5000/26284 82.898236 ]
+[ 11 0 : time at task 5000/26284 82.898994 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 83.547548 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 83.547593 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 83.547595 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 83.547598 ]
+[ 3 0 : time at task 5000/26284 84.471616 ]
+[ 7 0 : time at task 5000/26284 84.472220 ]
+[ 1 0 : time at task 10000/26284 85.591372 ]
+[ 11 0 : time at task 10000/26284 85.592152 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 88.189078 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 88.189123 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 88.189126 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 88.189128 ]
+[ 1 0 : time at task 15000/26284 88.274670 ]
+[ 11 0 : time at task 15000/26284 88.275472 ]
+[ 3 0 : time at task 10000/26284 89.829379 ]
+[ 7 0 : time at task 10000/26284 89.830019 ]
+[ 1 0 : time at task 20000/26284 90.968372 ]
+[ 11 0 : time at task 20000/26284 90.969196 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 92.830608 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 92.830654 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 92.830656 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 92.830659 ]
+[ 1 0 : time at task 25000/26284 93.651993 ]
+[ 11 0 : time at task 25000/26284 93.652840 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 94.273470 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 94.273564 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 94.273565 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 94.273567 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 94.274328 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 94.274422 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 94.274424 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 94.274425 ]
+[ 3 0 : time at task 15000/26284 95.167246 ]
+[ 7 0 : time at task 15000/26284 95.167923 ]
+[ 1 0 : time at task 5000/26284 96.365875 ]
+[ 11 0 : time at task 5000/26284 96.366755 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 97.472139 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 97.472184 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 97.472186 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 97.472189 ]
+[ 1 0 : time at task 10000/26284 99.059011 ]
+[ 11 0 : time at task 10000/26284 99.059913 ]
+[ 3 0 : time at task 20000/26284 100.525119 ]
+[ 7 0 : time at task 20000/26284 100.525831 ]
+[ 1 0 : time at task 15000/26284 101.742309 ]
+[ 11 0 : time at task 15000/26284 101.743234 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 102.113669 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 102.113714 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 102.113717 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 102.113719 ]
+[ 1 0 : time at task 20000/26284 104.436011 ]
+[ 11 0 : time at task 20000/26284 104.436958 ]
+[ 3 0 : time at task 25000/26284 105.863966 ]
+[ 7 0 : time at task 25000/26284 105.864714 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 106.755199 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 106.755245 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 106.755247 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 106.755250 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 107.107431 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 107.107508 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 107.107509 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 107.107511 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 107.108189 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 107.108266 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 107.108267 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 107.108269 ]
+[ 1 0 : time at task 25000/26284 107.119632 ]
+[ 11 0 : time at task 25000/26284 107.120602 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 107.741109 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 107.741203 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 107.741205 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 107.741206 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 107.742090 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 107.742184 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 107.742186 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 107.742187 ]
+[ 1 0 : time at task 5000/26284 109.833514 ]
+[ 11 0 : time at task 5000/26284 109.834517 ]
+[ 3 0 : time at task 5000/26284 111.248476 ]
+[ 7 0 : time at task 5000/26284 111.249270 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 111.396730 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 111.396775 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 111.396777 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 111.396780 ]
+[ 1 0 : time at task 10000/26284 112.526650 ]
+[ 11 0 : time at task 10000/26284 112.527675 ]
+[ 1 0 : time at task 15000/26284 115.209948 ]
+[ 11 0 : time at task 15000/26284 115.210996 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 116.038260 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 116.038305 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 116.038307 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 116.038310 ]
+[ 3 0 : time at task 10000/26284 116.606238 ]
+[ 7 0 : time at task 10000/26284 116.607068 ]
+[ 1 0 : time at task 20000/26284 117.903650 ]
+[ 11 0 : time at task 20000/26284 117.904720 ]
+[ 1 0 : time at task 25000/26284 120.587271 ]
+[ 11 0 : time at task 25000/26284 120.588363 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 120.679790 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 120.679836 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 120.679838 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 120.679841 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 121.208748 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 121.208842 ]
+[ 1 0 : Begin TRACER_WallTime_laghos 121.208844 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 121.208845 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 121.209852 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 121.209946 ]
+[ 11 0 : Begin TRACER_WallTime_laghos 121.209947 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 121.209949 ]
+[ 3 0 : time at task 15000/26284 121.944106 ]
+[ 7 0 : time at task 15000/26284 121.944972 ]
+[ 1 0 : time at task 5000/26284 123.301153 ]
+[ 11 0 : time at task 5000/26284 123.302279 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 125.321321 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 125.321366 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 125.321368 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 125.321371 ]
+[ 1 0 : time at task 10000/26284 125.994289 ]
+[ 11 0 : time at task 10000/26284 125.995436 ]
+[ 3 0 : time at task 20000/26284 127.301979 ]
+[ 7 0 : time at task 20000/26284 127.302881 ]
+[ 1 0 : time at task 15000/26284 128.677587 ]
+[ 11 0 : time at task 15000/26284 128.678757 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 129.962851 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 129.962896 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 129.962898 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 129.962901 ]
+[ 1 0 : time at task 20000/26284 131.371289 ]
+[ 11 0 : time at task 20000/26284 131.372481 ]
+[ 3 0 : time at task 25000/26284 132.640825 ]
+[ 7 0 : time at task 25000/26284 132.641763 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 133.884291 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 133.884367 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 133.884369 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 133.884370 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 133.885238 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 133.885315 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 133.885317 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 133.885318 ]
+[ 1 0 : time at task 25000/26284 134.054910 ]
+[ 11 0 : time at task 25000/26284 134.056125 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 134.604381 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 134.604427 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 134.604429 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 134.604432 ]
+[ 1 0 : End TRACER_WallTime_laghos_region 134.676387 ]
+[ 1 0 : Begin TRACER_WallTime_laghos_region 134.676481 ]
+[ 1 0 : End TRACER_WallTime_laghos 134.676484 ]
+[ 11 0 : End TRACER_WallTime_laghos_region 134.677613 ]
+[ 11 0 : Begin TRACER_WallTime_laghos_region 134.677707 ]
+[ 11 0 : End TRACER_WallTime_laghos 134.677710 ]
+[ 3 0 : time at task 5000/26284 138.025335 ]
+[ 7 0 : time at task 5000/26284 138.026319 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 139.245911 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 139.245957 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 139.245959 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 139.245962 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 167.095093 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 167.095139 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 167.095141 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 167.095144 ]
+[ 3 0 : time at task 10000/26284 143.383098 ]
+[ 7 0 : time at task 10000/26284 143.384118 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 171.736624 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 171.736669 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 171.736671 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 171.736674 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 143.887442 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 143.887487 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 143.887489 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 143.887492 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 181.019684 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 181.019730 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 181.019732 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 181.019735 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 185.661215 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 185.661260 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 185.661262 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 185.661265 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 148.528972 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 148.529018 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 148.529020 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 148.529023 ]
+[ 3 0 : time at task 15000/26284 148.720965 ]
+[ 7 0 : time at task 15000/26284 148.722022 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 194.944275 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 194.944321 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 194.944323 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 194.944326 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 199.585805 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 199.585851 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 199.585853 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 199.585856 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 204.227336 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 204.227381 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 204.227383 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 204.227386 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 153.170502 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 153.170548 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 153.170550 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 153.170553 ]
+[ 3 0 : time at task 20000/26284 154.078838 ]
+[ 7 0 : time at task 20000/26284 154.079930 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 213.510396 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 213.510442 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 213.510444 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 213.510447 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 218.151927 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 218.151972 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 218.151974 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 218.151977 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 157.812033 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 157.812078 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 157.812080 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 157.812083 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 227.434987 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 227.435033 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke 227.435035 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 227.435038 ]
+[ 3 0 : time at task 25000/26284 159.417685 ]
+[ 7 0 : time at task 25000/26284 159.418813 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke_region 232.076518 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : Begin TRACER_WallTime_kripke_region 232.076563 ]
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:24: kp (0) has no available output buffers
+
+/g/g92/bhowmik1/buildCodePatch/ROSS/core/tw-util.c:25: This event may be rolled back!
+[ 0 0 : End TRACER_WallTime_kripke 232.076566 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 160.661150 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 160.661227 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 160.661228 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 160.661230 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 160.662288 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 160.662365 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 160.662366 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 160.662368 ]
+[ 3 0 : time at task 5000/26284 164.802195 ]
+[ 7 0 : time at task 5000/26284 164.803369 ]
+[ 3 0 : time at task 10000/26284 170.159957 ]
+[ 7 0 : time at task 10000/26284 170.161167 ]
+[ 3 0 : time at task 15000/26284 175.497825 ]
+[ 7 0 : time at task 15000/26284 175.499071 ]
+[ 3 0 : time at task 20000/26284 180.855698 ]
+[ 7 0 : time at task 20000/26284 180.856980 ]
+[ 3 0 : time at task 25000/26284 186.194544 ]
+[ 7 0 : time at task 25000/26284 186.195862 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 187.438010 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 187.438086 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 187.438088 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 187.438089 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 187.439337 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 187.439414 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 187.439416 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 187.439417 ]
+[ 3 0 : time at task 5000/26284 191.579054 ]
+[ 7 0 : time at task 5000/26284 191.580418 ]
+[ 3 0 : time at task 10000/26284 196.936817 ]
+[ 7 0 : time at task 10000/26284 196.938216 ]
+[ 3 0 : time at task 15000/26284 202.274684 ]
+[ 7 0 : time at task 15000/26284 202.276120 ]
+[ 3 0 : time at task 20000/26284 207.632557 ]
+[ 7 0 : time at task 20000/26284 207.634029 ]
+[ 3 0 : time at task 25000/26284 212.971404 ]
+[ 7 0 : time at task 25000/26284 212.972911 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 214.214869 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 214.214946 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 214.214948 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 214.214949 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 214.216386 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 214.216463 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 214.216465 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 214.216466 ]
+[ 3 0 : time at task 5000/26284 218.355914 ]
+[ 7 0 : time at task 5000/26284 218.357467 ]
+[ 3 0 : time at task 10000/26284 223.713677 ]
+[ 7 0 : time at task 10000/26284 223.715266 ]
+[ 3 0 : time at task 15000/26284 229.051544 ]
+[ 7 0 : time at task 15000/26284 229.053169 ]
+[ 3 0 : time at task 20000/26284 234.409417 ]
+[ 7 0 : time at task 20000/26284 234.411078 ]
+[ 3 0 : time at task 25000/26284 239.748263 ]
+[ 7 0 : time at task 25000/26284 239.749961 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 240.991729 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 240.991806 ]
+[ 3 0 : Begin TRACER_WallTime_laghos 240.991807 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 240.991809 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 240.993436 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 240.993512 ]
+[ 7 0 : Begin TRACER_WallTime_laghos 240.993514 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 240.993515 ]
+[ 3 0 : time at task 5000/26284 245.132773 ]
+[ 7 0 : time at task 5000/26284 245.134517 ]
+[ 3 0 : time at task 10000/26284 250.490536 ]
+[ 7 0 : time at task 10000/26284 250.492315 ]
+[ 3 0 : time at task 15000/26284 255.828403 ]
+[ 7 0 : time at task 15000/26284 255.830219 ]
+[ 3 0 : time at task 20000/26284 261.186277 ]
+[ 7 0 : time at task 20000/26284 261.188128 ]
+[ 3 0 : time at task 25000/26284 266.525123 ]
+[ 7 0 : time at task 25000/26284 266.527010 ]
+[ 3 0 : End TRACER_WallTime_laghos_region 267.768588 ]
+[ 3 0 : Begin TRACER_WallTime_laghos_region 267.768665 ]
+[ 3 0 : End TRACER_WallTime_laghos 267.768668 ]
+[ 7 0 : End TRACER_WallTime_laghos_region 267.770485 ]
+[ 7 0 : Begin TRACER_WallTime_laghos_region 267.770562 ]
+[ 7 0 : End TRACER_WallTime_laghos 267.770565 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 162.453563 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 162.453608 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 162.453611 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 162.453613 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 176.378154 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 176.378199 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 176.378202 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 176.378204 ]
+GVT #15487612: simulation 1% complete, max event queue size 395877 (GVT = 180535566676.9297).
+AVL tree size: 308
+[ 0 0 : End TRACER_WallTime_kripke_region 190.302745 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 190.302790 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 190.302792 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 190.302795 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 208.868866 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 208.868912 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 208.868914 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 208.868917 ]
+[ 0 0 : End TRACER_WallTime_kripke_region 222.793457 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 222.793502 ]
+[ 0 0 : Begin TRACER_WallTime_kripke 222.793505 ]
+[ 0 0 : Begin TRACER_WallTime_kripke_region 222.793507 ]
+GVT #19921752: simulation 100% complete, max event queue size 395877 (GVT = MAX).
+AVL tree size: 0
+*** END SIMULATION ***
+
+Job[0]PE[0]: FINALIZE in 232.076566 seconds.
+Job[1]PE[0]: FINALIZE in 134.676484 seconds.
+Job[2]PE[0]: FINALIZE in 0.076864 seconds.
+
+	: Running Time = 15791.9417 seconds
+
+TW Library Statistics:
+	Total Events Processed                             25542355815
+	Events Aborted (part of RBs)                                 0
+	Events Rolled Back                                 20109138480
+	Event Ties Detected in PE Queues                        229898
+	Efficiency                                             -270.11 %
+	Total Remote (shared mem) Events Processed                   0
+	Percent Remote Events                                     0.00 %
+	Total Remote (network) Events Processed              719660264
+	Percent Remote Events                                    13.25 %
+
+	Total Roll Backs                                    3487259048
+	Primary Roll Backs                                   849881033
+	Secondary Roll Backs                                2637378015
+	Fossil Collect Attempts                              318748048
+	Total GVT Computations                                19921753
+
+	Net Events Processed                                5433217335
+	Event Rate (events/sec)                               344050.0
+	Total Events Scheduled Past End Time                         0
+
+TW Memory Statistics:
+	Events Allocated                                      10102929
+	Memory Allocated                                       6644114
+	Memory Wasted                                              187
+
+TW Network Statistics:
+	Remote sends                                       11044963740
+	Remote recvs                                       11044963740
+
+TW Data Structure sizes in bytes (sizeof):
+	PE struct                                                  640
+	KP struct                                                  144
+	LP struct                                                  136
+	LP Model struct                                           8376
+	LP RNGs                                                     80
+	Total LP                                                  8592
+	Event struct                                               152
+	Event struct with Model                                    664
+
+TW Clock Cycle Statistics (MAX values in secs at 1.0000 GHz):
+	Initialization                                         55.1144
+	Priority Queue (enq/deq)                             1867.5305
+	AVL Tree (insert/delete)                             1295.0633
+	LZ4 (de)compression                                     0.0000
+	Buddy system                                            0.0000
+	Event Processing                                     7687.4699
+	Event Cancel                                         3069.0294
+	Event Abort                                             0.0000
+
+	GVT                                                 37523.1049
+	Fossil Collect                                        701.6287
+	Primary Rollbacks                                    4338.5084
+	Network Read                                         4759.3837
+	Other Network                                        8219.2161
+	Instrumentation (computation)                           0.0000
+	Instrumentation (write)                                 0.0000
+	Total Time (Note: Using Running Time above for Speedup)  37808.2424
+
+TW GVT Statistics: MPI AllReduce
+	GVT Interval                                                16
+	GVT Real Time Interval (cycles)                    0
+	GVT Real Time Interval (sec)                        0.00000000
+	Batch Size                                                  16
+
+	Forced GVT                                                   0
+	Total GVT Computations                                19921753
+	Total All Reduce Calls                                59761859
+	Average Reduction / GVT                                   3.00
+LP-IO: writing output to ./counters.50.patch.job.all/
+LP-IO: data files:
+   ./counters.50.patch.job.all/fattree-switch-traffic
+   ./counters.50.patch.job.all/fattree-switch-stats
+   ./counters.50.patch.job.all/fattree-msg-stats
+   ./counters.50.patch.job.all/model-net-category-all
+   ./counters.50.patch.job.all/model-net-category-test
+   ./counters.50.patch.job.all/model-net-category-p2p
+   ./counters.50.patch.job.all/model-net-category-coll
+Job 0 Time 232.076572 s
+Job 1 Time 134.676494 s
+Job 2 Time 0.076876 s
+Job 3 Time 267.768685 s
+Job 4 Time 0.041092 s
+Job 5 Time 0.157073 s
+Job 6 Time 0.041091 s
+Job 7 Time 267.770581 s
+Job 8 Time 68.028768 s
+Job 9 Time 0.147440 s
+Job 10 Time 0.147538 s
+Job 11 Time 134.677721 s
+ Average number of hops traversed 2.009784 average chunk latency 4.112588 us maximum chunk latency 232.776450 us avg message size 15575.292969 bytes finished messages 91552042 finished chunks 408749042 
+ Total packets generated 408749042 finished 408749042 
+ Average number of hops traversed 2.009784 average chunk latency 4.112588 us maximum chunk latency 232.776450 us avg message size 15575.292969 bytes finished messages 91552042 
+Job[3]PE[0]: FINALIZE in 267.768668 seconds.
+Job[8]PE[0]: FINALIZE in 68.028763 seconds.
+Job[9]PE[0]: FINALIZE in 0.147430 seconds.
+Job[10]PE[0]: FINALIZE in 0.147528 seconds.
+Job[11]PE[0]: FINALIZE in 134.677710 seconds.
+Job[4]PE[0]: FINALIZE in 0.041082 seconds.
+Job[5]PE[0]: FINALIZE in 0.157060 seconds.
+Job[6]PE[0]: FINALIZE in 0.041081 seconds.
+Job[7]PE[0]: FINALIZE in 267.770565 seconds.

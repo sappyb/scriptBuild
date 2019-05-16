@@ -1,0 +1,167 @@
+
+----------------------------------------------------------------------
+------------------------ KRIPKE VERSION 1.1 --------------------------
+----------------------------------------------------------------------
+This work was produced at the Lawrence Livermore National Laboratory
+(LLNL) under contract no. DE-AC-52-07NA27344 (Contract 44) between the
+U.S. Department of Energy (DOE) and Lawrence Livermore National
+Security, LLC (LLNS) for the operation of LLNL. The rights of the
+Federal Government are reserved under Contract 44.
+
+Main Contact: Adam J. Kunen <kunen1@llnl.gov>
+----------------------------------------------------------------------
+Number of MPI tasks:   32
+Processors:            4 x 4 x 2
+Zones:                 128 x 128 x 64
+Legendre Order:        4
+Total X-Sec:           sigt=[0.100000, 0.000100, 0.100000]
+Scattering X-Sec:      sigs=[0.050000, 0.000050, 0.050000]
+Quadrature Set:        Dummy S2 with 16 points
+Parallel method:       Sweep
+Loop Nesting Order     DGZ
+Number iterations:     125
+GroupSet/Groups:       2 sets, 16 groups/set
+DirSets/Directions:    8 sets, 2 directions/set
+Zone Sets:             1,1,1
+Unknown counts: psi=536870912, rhs=536870912, phi=838860800, phi_out=838860800
+Region volumes: Reg1=8.060532e+03, Reg2=1.198643e+05, Reg3=2.752075e+06
+Time elapsed -1 to 0 : 3.603923
+Time elapsed 0 to 1 : 4.089662
+Time elapsed 1 to 2 : 4.128264
+Time elapsed 2 to 3 : 3.737621
+Time elapsed 3 to 4 : 3.849010
+Time elapsed 4 to 5 : 3.734309
+Time elapsed 5 to 6 : 3.592011
+Time elapsed 6 to 7 : 3.517158
+Time elapsed 7 to 8 : 3.857239
+Time elapsed 8 to 9 : 3.587047
+Time elapsed 9 to 10 : 3.593160
+Time elapsed 10 to 11 : 3.549409
+Time elapsed 11 to 12 : 3.502118
+Time elapsed 12 to 13 : 3.782188
+Time elapsed 13 to 14 : 3.543857
+Time elapsed 14 to 15 : 3.411476
+Time elapsed 15 to 16 : 3.264543
+Time elapsed 16 to 17 : 3.319954
+Time elapsed 17 to 18 : 3.290639
+Time elapsed 18 to 19 : 3.221592
+Time elapsed 19 to 20 : 3.393048
+Time elapsed 20 to 21 : 3.279070
+Time elapsed 21 to 22 : 3.318413
+Time elapsed 22 to 23 : 3.340826
+Time elapsed 23 to 24 : 3.377180
+Time elapsed 24 to 25 : 3.403037
+Time elapsed 25 to 26 : 3.276003
+Time elapsed 26 to 27 : 3.243821
+Time elapsed 27 to 28 : 3.387068
+Time elapsed 28 to 29 : 3.293413
+Time elapsed 29 to 30 : 3.503107
+Time elapsed 30 to 31 : 3.486736
+Time elapsed 31 to 32 : 3.519176
+Time elapsed 32 to 33 : 3.502844
+Time elapsed 33 to 34 : 3.505629
+Time elapsed 34 to 35 : 3.484864
+Time elapsed 35 to 36 : 3.501228
+Time elapsed 36 to 37 : 3.536529
+Time elapsed 37 to 38 : 3.624323
+Time elapsed 38 to 39 : 3.498934
+Time elapsed 39 to 40 : 3.496252
+Time elapsed 40 to 41 : 3.566356
+Time elapsed 41 to 42 : 3.492862
+Time elapsed 42 to 43 : 3.490402
+Time elapsed 43 to 44 : 3.470698
+Time elapsed 44 to 45 : 3.781684
+Time elapsed 45 to 46 : 3.474518
+Time elapsed 46 to 47 : 3.497303
+Time elapsed 47 to 48 : 3.495820
+Time elapsed 48 to 49 : 3.518228
+Time elapsed 49 to 50 : 3.489953
+Time elapsed 50 to 51 : 3.464318
+Time elapsed 51 to 52 : 3.572140
+Time elapsed 52 to 53 : 3.441013
+Time elapsed 53 to 54 : 3.459475
+Time elapsed 54 to 55 : 3.513163
+Time elapsed 55 to 56 : 3.517640
+Time elapsed 56 to 57 : 3.433469
+Time elapsed 57 to 58 : 3.490005
+Time elapsed 58 to 59 : 3.439475
+Time elapsed 59 to 60 : 3.421196
+Time elapsed 60 to 61 : 3.516643
+Time elapsed 61 to 62 : 3.662064
+Time elapsed 62 to 63 : 3.459538
+Time elapsed 63 to 64 : 3.454775
+Time elapsed 64 to 65 : 3.448271
+Time elapsed 65 to 66 : 3.463007
+Time elapsed 66 to 67 : 3.426715
+Time elapsed 67 to 68 : 3.440391
+Time elapsed 68 to 69 : 3.471819
+Time elapsed 69 to 70 : 3.485410
+Time elapsed 70 to 71 : 3.811546
+Time elapsed 71 to 72 : 3.566448
+Time elapsed 72 to 73 : 3.493339
+Time elapsed 73 to 74 : 3.590969
+Time elapsed 74 to 75 : 3.475433
+Time elapsed 75 to 76 : 3.478230
+Time elapsed 76 to 77 : 3.445377
+Time elapsed 77 to 78 : 3.449774
+Time elapsed 78 to 79 : 3.429885
+Time elapsed 79 to 80 : 3.476219
+Time elapsed 80 to 81 : 3.469506
+Time elapsed 81 to 82 : 3.380355
+Time elapsed 82 to 83 : 3.237605
+Time elapsed 83 to 84 : 3.307495
+Time elapsed 84 to 85 : 3.281474
+Time elapsed 85 to 86 : 3.246745
+Time elapsed 86 to 87 : 3.276719
+Time elapsed 87 to 88 : 3.356024
+Time elapsed 88 to 89 : 3.424397
+Time elapsed 89 to 90 : 3.337294
+Time elapsed 90 to 91 : 3.312926
+Time elapsed 91 to 92 : 3.258990
+Time elapsed 92 to 93 : 3.488812
+Time elapsed 93 to 94 : 3.248988
+Time elapsed 94 to 95 : 3.518667
+Time elapsed 95 to 96 : 3.432398
+Time elapsed 96 to 97 : 3.524828
+Time elapsed 97 to 98 : 3.448874
+Time elapsed 98 to 99 : 3.459002
+Time elapsed 99 to 100 : 3.449140
+Time elapsed 100 to 101 : 3.469920
+Time elapsed 101 to 102 : 3.513515
+Time elapsed 102 to 103 : 3.444502
+Time elapsed 103 to 104 : 3.461507
+Time elapsed 104 to 105 : 3.456219
+Time elapsed 105 to 106 : 3.496789
+Time elapsed 106 to 107 : 3.467149
+Time elapsed 107 to 108 : 3.466625
+Time elapsed 108 to 109 : 3.462510
+Time elapsed 109 to 110 : 3.457625
+Time elapsed 110 to 111 : 3.445601
+Time elapsed 111 to 112 : 3.474038
+Time elapsed 112 to 113 : 3.461064
+Time elapsed 113 to 114 : 3.640454
+Time elapsed 114 to 115 : 3.483190
+Time elapsed 115 to 116 : 3.490374
+Time elapsed 116 to 117 : 3.437678
+Time elapsed 117 to 118 : 3.428499
+Time elapsed 118 to 119 : 3.472496
+Time elapsed 119 to 120 : 3.442026
+Time elapsed 120 to 121 : 3.472135
+Time elapsed 121 to 122 : 3.457369
+Time elapsed 122 to 123 : 3.434545
+Time elapsed 123 to 124 : 3.547613
+Time elapsed per iteration : 3.480528 s
+Timers:
+  Timer                    Count       Seconds
+  LPlusTimes                 125      59.17154
+  LTimes                     125      51.93450
+  Scattering                 125     245.89871
+  Solve                        1     435.06599
+  Source                     125       0.06711
+  Sweep                      125      61.89235
+  Sweep_Kernel              2000      21.35449
+
+TIMER_NAMES:LPlusTimes,LTimes,Scattering,Solve,Source,Sweep,Sweep_Kernel
+TIMER_DATA:59.171537,51.934504,245.898709,435.065989,0.067109,61.892354,21.354488
+
+

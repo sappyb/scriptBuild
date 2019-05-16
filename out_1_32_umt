@@ -1,0 +1,1111 @@
+ Executing UMT2013 Number of ranks =32
+ gridFileName: /g/g92/jain6/workspace/Quartz-DAT-Sept-2018/UMT2013/Teton/custom_32.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+ Mesh complete.
+ Initializing Teton object...
+    done.
+ Starting time advance...
+CYCLE 1 timerad = 3e-06
+ 
+TempIters = 3 FluxIters = 3 GTAIters = 0
+TrMax =     0.0031622776601684 in Zone 740 on Node 31
+TeMax =     0.0031622776601684 in Zone 955 on Node 30
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.185516             0.32642874633893
+ 
+Time elapsed -1 to 0 : 2.185779
+CYCLE 2 timerad = 6.3e-05
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.36459219972484 in Zone 797 on Node 4
+TeMax =     0.0075234782306667 in Zone 797 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.68195             0.45942240720615
+ 
+Time elapsed 0 to 1 : 1.684175
+CYCLE 3 timerad = 0.000123
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.43263702948526 in Zone 893 on Node 4
+TeMax =     0.14207129578927 in Zone 893 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.314424             0.61249951366335
+ 
+Time elapsed 1 to 2 : 2.314877
+CYCLE 4 timerad = 0.000183
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.47777565110989 in Zone 893 on Node 4
+TeMax =     0.18768964084908 in Zone 893 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.168867             0.78358946926892
+ 
+Time elapsed 2 to 3 : 2.169120
+CYCLE 5 timerad = 0.000243
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.51233672642738 in Zone 797 on Node 4
+TeMax =     0.22394100233694 in Zone 797 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.693809             0.92019968759269
+ 
+Time elapsed 3 to 4 : 1.695175
+CYCLE 6 timerad = 0.000303
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.54062904578811 in Zone 797 on Node 4
+TeMax =     0.25504594770475 in Zone 797 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.279172             1.0972939822823
+ 
+Time elapsed 4 to 5 : 2.280379
+CYCLE 7 timerad = 0.000363
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.56471691525601 in Zone 797 on Node 4
+TeMax =     0.28268197182755 in Zone 797 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.815597             1.2922650072724
+ 
+Time elapsed 5 to 6 : 1.815912
+CYCLE 8 timerad = 0.000423
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.58575320193465 in Zone 797 on Node 4
+TeMax =     0.30307025789385 in Zone 797 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.949021             1.4258566736244
+ 
+Time elapsed 6 to 7 : 1.950394
+CYCLE 9 timerad = 0.000483
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.60446358674378 in Zone 797 on Node 4
+TeMax =     0.32113654631239 in Zone 797 on Node 4
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.878763             1.558908556588
+ 
+Time elapsed 7 to 8 : 1.879980
+CYCLE 10 timerad = 0.000543
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.62133643128505 in Zone 839 on Node 22
+TeMax =     0.33813104308205 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.938924             1.734588061925
+ 
+Time elapsed 8 to 9 : 1.939009
+CYCLE 11 timerad = 0.000603
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.63671657182953 in Zone 839 on Node 22
+TeMax =     0.35418634903697 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.657035             1.8719713753089
+ 
+Time elapsed 9 to 10 : 1.658100
+CYCLE 12 timerad = 0.000663
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.65085737939655 in Zone 839 on Node 22
+TeMax =     0.36941322076681 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.580831             2.0144070116803
+ 
+Time elapsed 10 to 11 : 1.582058
+CYCLE 13 timerad = 0.000723
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.66395094326365 in Zone 839 on Node 22
+TeMax =     0.38390385873717 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.785386             2.1628132807091
+ 
+Time elapsed 11 to 12 : 1.785473
+CYCLE 14 timerad = 0.000783
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.67614659464132 in Zone 839 on Node 22
+TeMax =     0.39773535754203 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.733836             2.3307000854984
+ 
+Time elapsed 12 to 13 : 1.735079
+CYCLE 15 timerad = 0.000843
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.68756279945168 in Zone 839 on Node 22
+TeMax =     0.41097264726766 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.679394             2.4665801967494
+ 
+Time elapsed 13 to 14 : 1.680738
+CYCLE 16 timerad = 0.000903
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.69829507772956 in Zone 839 on Node 22
+TeMax =     0.4236708478231 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.960929             2.6043970012106
+ 
+Time elapsed 14 to 15 : 1.961179
+CYCLE 17 timerad = 0.000963
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.70842143956262 in Zone 839 on Node 22
+TeMax =     0.43587711380765 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.448942             2.7551645361818
+ 
+Time elapsed 15 to 16 : 1.450153
+CYCLE 18 timerad = 0.001023
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.71800621660065 in Zone 839 on Node 22
+TeMax =     0.44763207305062 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.553429             2.9771663337015
+ 
+Time elapsed 16 to 17 : 1.554633
+CYCLE 19 timerad = 0.001083
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.72710283172418 in Zone 839 on Node 22
+TeMax =     0.45897095124651 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.702905             3.1152736074291
+ 
+Time elapsed 17 to 18 : 1.702994
+CYCLE 20 timerad = 0.001143
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.7357558552013 in Zone 839 on Node 22
+TeMax =     0.46992445717945 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.363946             3.2532813414
+ 
+Time elapsed 18 to 19 : 1.365279
+CYCLE 21 timerad = 0.001203
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.74400257801781 in Zone 839 on Node 22
+TeMax =     0.48051948634543 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.339712             3.4009195268154
+ 
+Time elapsed 19 to 20 : 1.340914
+CYCLE 22 timerad = 0.001263
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.75187425803958 in Zone 839 on Node 22
+TeMax =     0.49077968719873 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.462063             3.5389725179411
+ 
+Time elapsed 20 to 21 : 1.463283
+CYCLE 23 timerad = 0.001323
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.75939714416689 in Zone 839 on Node 22
+TeMax =     0.50072592364126 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6.2015782494038e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.513841             3.6780034047551
+ 
+Time elapsed 21 to 22 : 1.515035
+CYCLE 24 timerad = 0.001385015782494
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.76682793497781 in Zone 839 on Node 22
+TeMax =     0.51072015435497 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.440876             3.8165429439396
+ 
+Time elapsed 22 to 23 : 1.442077
+CYCLE 25 timerad = 0.001445015782494
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.77370613000703 in Zone 839 on Node 22
+TeMax =     0.52006201177933 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6.2908291305888e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.452585             3.9553534504957
+ 
+Time elapsed 23 to 24 : 1.453801
+CYCLE 26 timerad = 0.0015079240737999
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.78060241633825 in Zone 839 on Node 22
+TeMax =     0.52962432810384 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 6.7715786536933e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.5491             4.0931555451825
+ 
+Time elapsed 24 to 25 : 1.550192
+CYCLE 27 timerad = 0.0015756398603369
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.78768145042329 in Zone 713 on Node 14
+TeMax =     0.53962793685444 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 7.2890274996436e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.633087             4.2321883402765
+ 
+Time elapsed 25 to 26 : 1.634369
+CYCLE 28 timerad = 0.0016485301353333
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.79492201986312 in Zone 713 on Node 14
+TeMax =     0.5500591629324 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 7.9259730361966e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.664556             4.3708255793899
+ 
+Time elapsed 26 to 27 : 1.665572
+CYCLE 29 timerad = 0.0017277898656953
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.80237051914543 in Zone 713 on Node 14
+TeMax =     0.56103143881554 in Zone 839 on Node 22
+Recommended time step for next rad cycle = 8.6855501014889e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.739815             4.5336537300609
+ 
+Time elapsed 27 to 28 : 1.741167
+CYCLE 30 timerad = 0.0018146453667101
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.81005216898414 in Zone 713 on Node 14
+TeMax =     0.57263144500279 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 9.6132074434711e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.298488             4.6940440000035
+ 
+Time elapsed 28 to 29 : 1.299844
+CYCLE 31 timerad = 0.0019107774411449
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.81800499368078 in Zone 713 on Node 14
+TeMax =     0.5849807784917 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00010681341603857
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.407225             4.8545092628337
+ 
+Time elapsed 29 to 30 : 1.408616
+CYCLE 32 timerad = 0.0020175908571834
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.82621719820605 in Zone 713 on Node 14
+TeMax =     0.59812434811152 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00011225510319924
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.701339             5.0387411206029
+ 
+Time elapsed 30 to 31 : 1.702335
+CYCLE 33 timerad = 0.0021298459603827
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.83421398156421 in Zone 713 on Node 14
+TeMax =     0.61126171214185 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.0001247278924436
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.727958             5.234634835273
+ 
+Time elapsed 31 to 32 : 1.728040
+CYCLE 34 timerad = 0.0022545738528263
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.84241319582494 in Zone 713 on Node 14
+TeMax =     0.62521339837848 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00013858654715955
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.646626             5.4182511460967
+ 
+Time elapsed 32 to 33 : 1.647959
+CYCLE 35 timerad = 0.0023931603999858
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.85078811209968 in Zone 713 on Node 14
+TeMax =     0.63990938572036 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.0001539850523995
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.721712             5.6355780363083
+ 
+Time elapsed 33 to 34 : 1.722851
+CYCLE 36 timerad = 0.0025471454523853
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.8593220626475 in Zone 713 on Node 14
+TeMax =     0.65532012507889 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00017109450266611
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.69305             5.8306956915185
+ 
+Time elapsed 34 to 35 : 1.694296
+CYCLE 37 timerad = 0.0027182399550514
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.86800941424769 in Zone 713 on Node 14
+TeMax =     0.67140838966112 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00019010500296235
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.750473             6.0395987429656
+ 
+Time elapsed 35 to 36 : 1.750986
+CYCLE 38 timerad = 0.0029083449580138
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.87685340596748 in Zone 713 on Node 14
+TeMax =     0.68813044228553 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00021122778106928
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.714306             6.2558122104965
+ 
+Time elapsed 36 to 37 : 1.714584
+CYCLE 39 timerad = 0.003119572739083
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.88586332801027 in Zone 713 on Node 14
+TeMax =     0.70543707203361 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00023469753452142
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.564915             6.4977963254787
+ 
+Time elapsed 37 to 38 : 1.564995
+CYCLE 40 timerad = 0.0033542702736045
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.89505439103868 in Zone 713 on Node 14
+TeMax =     0.7232747808799 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00026077503835713
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.057321             6.7502985601313
+ 
+Time elapsed 38 to 39 : 2.058685
+CYCLE 41 timerad = 0.0036150453119616
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.90445109309452 in Zone 713 on Node 14
+TeMax =     0.74158759539169 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00028975004261903
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.834406             6.9603363992646
+ 
+Time elapsed 39 to 40 : 1.835650
+CYCLE 42 timerad = 0.0039047953545806
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.91408967122387 in Zone 713 on Node 14
+TeMax =     0.76031943349642 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00032194449179893
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.966972             7.1922004832886
+ 
+Time elapsed 40 to 41 : 1.968179
+CYCLE 43 timerad = 0.0042267398463796
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.92401275166644 in Zone 713 on Node 14
+TeMax =     0.77941588173483 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00035771610199881
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.173583             7.4248981755227
+ 
+Time elapsed 41 to 42 : 2.174815
+CYCLE 44 timerad = 0.0045844559483784
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.93425536955908 in Zone 893 on Node 10
+TeMax =     0.79882387117344 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00039746233555423
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.927174             7.6811484890059
+ 
+Time elapsed 42 to 43 : 1.928367
+CYCLE 45 timerad = 0.0049819182839326
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.94483120781342 in Zone 893 on Node 10
+TeMax =     0.81848913827431 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00044162481728248
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.888734             7.9361792700365
+ 
+Time elapsed 43 to 44 : 1.889807
+CYCLE 46 timerad = 0.0054235431012151
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.9557330931076 in Zone 893 on Node 10
+TeMax =     0.83835368615578 in Zone 713 on Node 14
+Recommended time step for next rad cycle = 0.00049069424142497
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.806325             8.1909385868348
+ 
+Time elapsed 44 to 45 : 1.806557
+CYCLE 47 timerad = 0.00591423734264
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.96694904401648 in Zone 893 on Node 10
+TeMax =     0.85835665817348 in Zone 893 on Node 10
+Recommended time step for next rad cycle = 0.00054521582380553
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.765794             8.4465514919721
+ 
+Time elapsed 45 to 46 : 1.766936
+CYCLE 48 timerad = 0.0064594531664456
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.97848141628827 in Zone 893 on Node 10
+TeMax =     0.87843815854352 in Zone 893 on Node 10
+Recommended time step for next rad cycle = 0.00060579535978392
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.919707             8.7249541194178
+ 
+Time elapsed 46 to 47 : 1.920921
+CYCLE 49 timerad = 0.0070652485262295
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.99035219078965 in Zone 893 on Node 10
+TeMax =     0.89854475167804 in Zone 893 on Node 10
+Recommended time step for next rad cycle = 0.00067310595531547
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.924579             9.0195230580866
+ 
+Time elapsed 47 to 48 : 1.925855
+CYCLE 50 timerad = 0.007738354481545
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     1.0026024231948 in Zone 896 on Node 10
+TeMax =     0.91863322103664 in Zone 893 on Node 10
+Recommended time step for next rad cycle = 0.00074789550590607
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.975091             9.3216997482814
+ 
+Time elapsed 48 to 49 : 1.975181
+CYCLE 51 timerad = 0.008486249987451
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     1.0152543719154 in Zone 896 on Node 10
+TeMax =     0.93866843047772 in Zone 893 on Node 10
+Recommended time step for next rad cycle = 0.0008309950065623
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.091983             9.6971977157518
+ 
+Time elapsed 49 to 50 : 2.092070
+CYCLE 52 timerad = 0.0093172449940133
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     1.0282692014242 in Zone 896 on Node 10
+TeMax =     0.95861784987751 in Zone 893 on Node 10
+Recommended time step for next rad cycle = 0.00092332778506923
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.217772             10.102147313301
+ 
+Time elapsed 50 to 51 : 2.217865
+CYCLE 53 timerad = 0.010240572779083
+ 
+TempIters = 8 FluxIters = 8 GTAIters = 0
+TrMax =     1.0416041523392 in Zone 896 on Node 10
+TeMax =     0.97846635564321 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.001025919761188
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.55749             10.454154524021
+ 
+Time elapsed 51 to 52 : 2.558729
+CYCLE 54 timerad = 0.011266492540271
+ 
+TempIters = 9 FluxIters = 9 GTAIters = 0
+TrMax =     1.0551987177748 in Zone 896 on Node 10
+TeMax =     0.99816137267204 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0011399108457645
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.638527             10.838927784469
+ 
+Time elapsed 52 to 53 : 2.639778
+CYCLE 55 timerad = 0.012406403386035
+ 
+TempIters = 9 FluxIters = 9 GTAIters = 0
+TrMax =     1.0689849957204 in Zone 896 on Node 10
+TeMax =     1.0176432545537 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.001266567606405
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.922997             11.23689713981
+ 
+Time elapsed 53 to 54 : 2.924351
+CYCLE 56 timerad = 0.01367297099244
+ 
+TempIters = 9 FluxIters = 9 GTAIters = 0
+TrMax =     1.0828947722211 in Zone 896 on Node 10
+TeMax =     1.0368573919197 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.00140729734045
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.586864             11.800422961358
+ 
+Time elapsed 54 to 55 : 2.587027
+CYCLE 57 timerad = 0.01508026833289
+ 
+TempIters = 10 FluxIters = 10 GTAIters = 0
+TrMax =     1.0968618547748 in Zone 896 on Node 10
+TeMax =     1.0557469311576 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0015636637116111
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.015176             12.324902971741
+ 
+Time elapsed 55 to 56 : 3.015466
+CYCLE 58 timerad = 0.016643932044501
+ 
+TempIters = 10 FluxIters = 10 GTAIters = 0
+TrMax =     1.1108206515248 in Zone 896 on Node 10
+TeMax =     1.0742545631525 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0017374041240123
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.8992             12.831921861507
+ 
+Time elapsed 56 to 57 : 2.899468
+CYCLE 59 timerad = 0.018381336168513
+ 
+TempIters = 11 FluxIters = 11 GTAIters = 0
+TrMax =     1.124702978482 in Zone 896 on Node 10
+TeMax =     1.0923228178421 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0019304490266803
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 2.950693             13.383113439661
+ 
+Time elapsed 57 to 58 : 2.950776
+CYCLE 60 timerad = 0.020311785195194
+ 
+TempIters = 12 FluxIters = 12 GTAIters = 0
+TrMax =     1.1384351768208 in Zone 896 on Node 10
+TeMax =     1.1098929845199 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0021449433629782
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.386094             13.901902283076
+ 
+Time elapsed 58 to 59 : 3.387489
+CYCLE 61 timerad = 0.022456728558172
+ 
+TempIters = 12 FluxIters = 12 GTAIters = 0
+TrMax =     1.1519368715607 in Zone 896 on Node 10
+TeMax =     1.12690345694 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0023832704033091
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.296592             14.44222210953
+ 
+Time elapsed 59 to 60 : 3.297790
+CYCLE 62 timerad = 0.024839998961481
+ 
+TempIters = 13 FluxIters = 13 GTAIters = 0
+TrMax =     1.165121940354 in Zone 896 on Node 10
+TeMax =     1.143288622175 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.002648078225899
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.458522             15.020635812078
+ 
+Time elapsed 60 to 61 : 3.459726
+CYCLE 63 timerad = 0.02748807718738
+ 
+TempIters = 14 FluxIters = 14 GTAIters = 0
+TrMax =     1.1779002515848 in Zone 896 on Node 10
+TeMax =     1.1589786629619 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0029423091398877
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.817807             15.62775227055
+ 
+Time elapsed 61 to 62 : 3.819016
+CYCLE 64 timerad = 0.030430386327268
+ 
+TempIters = 15 FluxIters = 15 GTAIters = 0
+TrMax =     1.1901802534922 in Zone 896 on Node 10
+TeMax =     1.1739006093096 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.003269232377653
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.956352             16.280194756109
+ 
+Time elapsed 62 to 63 : 3.957637
+CYCLE 65 timerad = 0.033699618704921
+ 
+TempIters = 15 FluxIters = 15 GTAIters = 0
+TrMax =     1.2018713690543 in Zone 896 on Node 10
+TeMax =     1.1879802773073 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0036324804196145
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.011809             17.042340812739
+ 
+Time elapsed 63 to 64 : 4.011894
+CYCLE 66 timerad = 0.037332099124535
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2128870917488 in Zone 896 on Node 10
+TeMax =     1.2011452049653 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0036324804196145
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.244691             17.746875419747
+ 
+Time elapsed 64 to 65 : 4.245884
+CYCLE 67 timerad = 0.04096457954415
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2222394156584 in Zone 896 on Node 10
+TeMax =     1.2122512664153 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0036324804196145
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.270587             18.431349826511
+ 
+Time elapsed 65 to 66 : 4.271818
+CYCLE 68 timerad = 0.044597059963764
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2302329176945 in Zone 896 on Node 10
+TeMax =     1.2217048959383 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0036324804196145
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.216064             19.114422196988
+ 
+Time elapsed 66 to 67 : 4.217297
+CYCLE 69 timerad = 0.048229540383379
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2370914893211 in Zone 896 on Node 10
+TeMax =     1.2297844516254 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0036324804196145
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.905461             19.795951812062
+ 
+Time elapsed 67 to 68 : 3.906666
+CYCLE 70 timerad = 0.051862020802993
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2429929107094 in Zone 896 on Node 10
+TeMax =     1.2367132061485 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0036324804196145
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.278566             20.461911937222
+ 
+Time elapsed 68 to 69 : 4.279671
+CYCLE 71 timerad = 0.055494501222608
+ 
+TempIters = 15 FluxIters = 15 GTAIters = 0
+TrMax =     1.2480821536418 in Zone 896 on Node 10
+TeMax =     1.2426718623552 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0040360893551272
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.175043             21.150292549282
+ 
+Time elapsed 69 to 70 : 4.177024
+CYCLE 72 timerad = 0.059530590577735
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.252913648858 in Zone 896 on Node 10
+TeMax =     1.2483087813031 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0040360893551272
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.055499             21.858413097449
+ 
+Time elapsed 70 to 71 : 4.056654
+CYCLE 73 timerad = 0.063566679932862
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2570203737522 in Zone 896 on Node 10
+TeMax =     1.2530964147557 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0040360893551272
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.038802             22.544174195267
+ 
+Time elapsed 71 to 72 : 4.040019
+CYCLE 74 timerad = 0.067602769287989
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2605261656319 in Zone 896 on Node 10
+TeMax =     1.2571773425761 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0040360893551272
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.211592             23.227957055438
+ 
+Time elapsed 72 to 73 : 4.212954
+CYCLE 75 timerad = 0.071638858643117
+ 
+TempIters = 16 FluxIters = 16 GTAIters = 0
+TrMax =     1.2635237638354 in Zone 896 on Node 10
+TeMax =     1.2606616111435 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0040360893551272
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 4.035707             23.90779055981
+ 
+Time elapsed 73 to 74 : 4.036876
+CYCLE 76 timerad = 0.075674947998244
+ 
+TempIters = 15 FluxIters = 15 GTAIters = 0
+TrMax =     1.2660896846315 in Zone 896 on Node 10
+TeMax =     1.2636405153958 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 0.0044845437279191
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 3.915889             24.653489942197
+ 
+Time elapsed 74 to 75 : 3.915974
+ SuOlson setting last step's dt=7.5052001756282e-05
+CYCLE 77 timerad = 0.07575
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     1.2658740313344 in Zone 801 on Node 4
+TeMax =     1.2636793936496 in Zone 896 on Node 10
+Recommended time step for next rad cycle = 8.3391113062535e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 1.02484             24.78751201788
+ 
+Time elapsed 75 to 76 : 1.025085
+ SuOlson Test version 1.0 completed at time= 0.07575  goalTime= 0.07575
+Time elapsed per iteration : 2.336200 s
+ Computing error check along x= 0.015625, y= 0.015625
+ z=    0.05 tInterpolated=     2.53568 tExact=3.39519e-313 error=    2.53568
+ z=     0.1 tInterpolated=     2.52076 tExact=8.48798e-314 error=    2.52076
+ z=    0.15 tInterpolated=     2.49805 tExact=5.43231e-312 error=    2.49805
+ z=     0.2 tInterpolated=     2.45559 tExact=3.39519e-313 error=    2.45559
+ z=    0.25 tInterpolated=     2.41157 tExact=8.48798e-314 error=    2.41157
+ z=     0.3 tInterpolated=     2.35246 tExact=5.43231e-312 error=    2.35246
+ z=    0.35 tInterpolated=     2.28064 tExact=4.24399e-314 error=    2.28064
+ z=     0.4 tInterpolated=     2.19417 tExact= 2.122e-314 error=    2.19417
+ z=    0.45 tInterpolated=      2.0861 tExact=1.6976e-313 error=     2.0861
+ z=     0.5 tInterpolated=     1.94341 tExact=6.37345e-322 error=    1.94341
+ z=    0.55 tInterpolated=     1.79676 tExact=2.31779e-310 error=    1.79676
+ z=     0.6 tInterpolated=     1.67576 tExact=1.63688e-316 error=    1.67576
+ z=    0.65 tInterpolated=     1.56682 tExact= 2.122e-314 error=    1.56682
+ z=     0.7 tInterpolated=     1.46356 tExact=1.69757e-316 error=    1.46356
+ z=    0.75 tInterpolated=     1.36373 tExact=1.14228e-320 error=    1.36373
+numUnknowns = 1.07374e+09
+cumulativeIterationCount= 615 cumulativeWorkTime=179.815 s.
+figure of merit = 3.6724e+09

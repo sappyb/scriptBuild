@@ -1,0 +1,298 @@
+
+       __                __                 
+      / /   ____  ____  / /_  ____  _____   
+     / /   / __ `/ __ `/ __ \/ __ \/ ___/ 
+    / /___/ /_/ / /_/ / / / / /_/ (__  )    
+   /_____/\__,_/\__, /_/ /_/\____/____/  
+               /____/                       
+
+Options used:
+   --mesh /g/g92/jain6/workspace/Quartz-DAT-Sept-2018/Laghos/Laghos/data/cube01_hex.mesh
+   --refine-serial 3
+   --refine-parallel 2
+   --problem 1
+   --order-kinematic 2
+   --order-thermo 1
+   --ode-solver 4
+   --t-final 0.6
+   --cfl 0.5
+   --cg-tol 1e-08
+   --cg-max-steps 50
+   --max-steps 250
+   --partial-assembly
+   --no-visualization
+   --visualization-steps 5
+   --no-visit
+   --no-print
+   --outputfilename results/Laghos
+   --partition 211
+Zones min/max: 2048 2048
+Number of kinematic (position, velocity) dofs: 6440067
+Number of specific internal energy dofs: 2097152
+Repeating step 1
+Repeating step 1
+Repeating step 1
+Repeating step 1
+Time elapsed 0 to 1 : 10.902211
+Repeating step 2
+Time elapsed 1 to 2 : 5.356246
+Time elapsed 2 to 3 : 2.788993
+Time elapsed 3 to 4 : 3.052356
+Time elapsed 4 to 5 : 2.214559
+Time elapsed 5 to 6 : 2.314977
+Time elapsed 6 to 7 : 2.197253
+Time elapsed 7 to 8 : 2.123270
+Time elapsed 8 to 9 : 2.149990
+Time elapsed 9 to 10 : 2.142504
+Time elapsed 10 to 11 : 2.070595
+Time elapsed 11 to 12 : 2.227748
+Time elapsed 12 to 13 : 2.081145
+Time elapsed 13 to 14 : 2.307658
+Time elapsed 14 to 15 : 2.308674
+Time elapsed 15 to 16 : 2.216544
+Time elapsed 16 to 17 : 2.294902
+Time elapsed 17 to 18 : 2.227757
+Time elapsed 18 to 19 : 2.186245
+Time elapsed 19 to 20 : 2.144694
+Time elapsed 20 to 21 : 2.173190
+Time elapsed 21 to 22 : 2.195904
+Time elapsed 22 to 23 : 2.236516
+Time elapsed 23 to 24 : 2.290316
+Time elapsed 24 to 25 : 2.208247
+Time elapsed 25 to 26 : 2.332959
+Time elapsed 26 to 27 : 2.280248
+Time elapsed 27 to 28 : 2.264026
+Time elapsed 28 to 29 : 2.229903
+Time elapsed 29 to 30 : 2.231250
+Time elapsed 30 to 31 : 2.277811
+Time elapsed 31 to 32 : 2.164296
+Repeating step 33
+Time elapsed 32 to 33 : 4.723921
+Time elapsed 33 to 34 : 2.248750
+Repeating step 35
+Time elapsed 34 to 35 : 4.795653
+Time elapsed 35 to 36 : 2.299453
+Repeating step 37
+Time elapsed 36 to 37 : 4.832205
+Time elapsed 37 to 38 : 2.191252
+Time elapsed 38 to 39 : 2.205911
+Time elapsed 39 to 40 : 2.128427
+Time elapsed 40 to 41 : 2.199246
+Time elapsed 41 to 42 : 2.187120
+Time elapsed 42 to 43 : 2.123078
+Time elapsed 43 to 44 : 2.165364
+Repeating step 45
+Time elapsed 44 to 45 : 4.842343
+Time elapsed 45 to 46 : 2.200407
+Time elapsed 46 to 47 : 2.289802
+Time elapsed 47 to 48 : 2.159570
+Time elapsed 48 to 49 : 2.160793
+Time elapsed 49 to 50 : 2.150741
+Time elapsed 50 to 51 : 2.155482
+Time elapsed 51 to 52 : 2.195755
+Time elapsed 52 to 53 : 2.181317
+Time elapsed 53 to 54 : 2.181126
+Time elapsed 54 to 55 : 2.327464
+Time elapsed 55 to 56 : 2.305723
+Time elapsed 56 to 57 : 2.274628
+Time elapsed 57 to 58 : 2.274261
+Time elapsed 58 to 59 : 2.125724
+Time elapsed 59 to 60 : 2.206577
+Time elapsed 60 to 61 : 2.139412
+Time elapsed 61 to 62 : 2.168568
+Time elapsed 62 to 63 : 2.157426
+Time elapsed 63 to 64 : 2.285731
+Time elapsed 64 to 65 : 2.175499
+Time elapsed 65 to 66 : 2.349299
+Time elapsed 66 to 67 : 2.290620
+Time elapsed 67 to 68 : 2.189007
+Time elapsed 68 to 69 : 2.244896
+Time elapsed 69 to 70 : 2.193421
+Repeating step 71
+Time elapsed 70 to 71 : 4.676794
+Time elapsed 71 to 72 : 2.313458
+Time elapsed 72 to 73 : 2.165052
+Time elapsed 73 to 74 : 2.408507
+Time elapsed 74 to 75 : 2.528635
+Time elapsed 75 to 76 : 2.435532
+Repeating step 77
+Time elapsed 76 to 77 : 4.872051
+Time elapsed 77 to 78 : 2.271847
+Time elapsed 78 to 79 : 2.216282
+Time elapsed 79 to 80 : 2.218321
+Time elapsed 80 to 81 : 2.185781
+Time elapsed 81 to 82 : 2.218786
+Time elapsed 82 to 83 : 2.254999
+Time elapsed 83 to 84 : 2.234575
+Time elapsed 84 to 85 : 2.207625
+Time elapsed 85 to 86 : 2.310388
+Time elapsed 86 to 87 : 2.302549
+Time elapsed 87 to 88 : 2.225487
+Time elapsed 88 to 89 : 2.257287
+Time elapsed 89 to 90 : 2.191056
+Time elapsed 90 to 91 : 2.169376
+Time elapsed 91 to 92 : 2.131523
+Time elapsed 92 to 93 : 2.206923
+Time elapsed 93 to 94 : 2.141366
+Time elapsed 94 to 95 : 2.469945
+Time elapsed 95 to 96 : 2.084071
+Time elapsed 96 to 97 : 2.305153
+Time elapsed 97 to 98 : 2.304344
+Time elapsed 98 to 99 : 2.215419
+Time elapsed 99 to 100 : 2.311220
+Time elapsed 100 to 101 : 2.266495
+Time elapsed 101 to 102 : 2.140670
+Time elapsed 102 to 103 : 2.161826
+Time elapsed 103 to 104 : 2.253240
+Time elapsed 104 to 105 : 2.136748
+Time elapsed 105 to 106 : 2.357020
+Time elapsed 106 to 107 : 2.203772
+Time elapsed 107 to 108 : 2.324080
+Time elapsed 108 to 109 : 2.374766
+Time elapsed 109 to 110 : 2.240574
+Time elapsed 110 to 111 : 2.276589
+Time elapsed 111 to 112 : 2.274635
+Repeating step 113
+Time elapsed 112 to 113 : 4.620796
+Time elapsed 113 to 114 : 2.189201
+Time elapsed 114 to 115 : 2.118924
+Time elapsed 115 to 116 : 2.285659
+Time elapsed 116 to 117 : 2.193783
+Time elapsed 117 to 118 : 2.371266
+Time elapsed 118 to 119 : 2.435916
+Time elapsed 119 to 120 : 2.280973
+Time elapsed 120 to 121 : 2.238346
+Time elapsed 121 to 122 : 2.261001
+Time elapsed 122 to 123 : 2.153898
+Time elapsed 123 to 124 : 2.213654
+Time elapsed 124 to 125 : 2.153329
+Time elapsed 125 to 126 : 2.117485
+Time elapsed 126 to 127 : 2.348038
+Time elapsed 127 to 128 : 2.164010
+Time elapsed 128 to 129 : 2.244788
+Time elapsed 129 to 130 : 2.887920
+Time elapsed 130 to 131 : 2.538041
+Time elapsed 131 to 132 : 2.244317
+Time elapsed 132 to 133 : 2.247657
+Time elapsed 133 to 134 : 2.195915
+Time elapsed 134 to 135 : 2.156359
+Time elapsed 135 to 136 : 2.207880
+Time elapsed 136 to 137 : 2.069579
+Time elapsed 137 to 138 : 2.188488
+Time elapsed 138 to 139 : 2.115312
+Time elapsed 139 to 140 : 2.196777
+Time elapsed 140 to 141 : 2.275686
+Time elapsed 141 to 142 : 2.173670
+Time elapsed 142 to 143 : 2.117052
+Time elapsed 143 to 144 : 2.152385
+Time elapsed 144 to 145 : 2.085300
+Time elapsed 145 to 146 : 2.166832
+Time elapsed 146 to 147 : 2.095400
+Time elapsed 147 to 148 : 2.255981
+Time elapsed 148 to 149 : 2.308090
+Time elapsed 149 to 150 : 2.596592
+Time elapsed 150 to 151 : 2.192943
+Time elapsed 151 to 152 : 2.335721
+Time elapsed 152 to 153 : 2.246599
+Time elapsed 153 to 154 : 2.091013
+Time elapsed 154 to 155 : 2.244700
+Time elapsed 155 to 156 : 2.190065
+Time elapsed 156 to 157 : 2.246420
+Time elapsed 157 to 158 : 2.163845
+Time elapsed 158 to 159 : 2.098549
+Time elapsed 159 to 160 : 2.145113
+Time elapsed 160 to 161 : 2.202998
+Time elapsed 161 to 162 : 2.207354
+Time elapsed 162 to 163 : 2.479209
+Time elapsed 163 to 164 : 2.950733
+Time elapsed 164 to 165 : 2.163091
+Time elapsed 165 to 166 : 2.276232
+Time elapsed 166 to 167 : 2.265918
+Time elapsed 167 to 168 : 2.216598
+Time elapsed 168 to 169 : 2.129402
+Time elapsed 169 to 170 : 2.240755
+Time elapsed 170 to 171 : 2.184098
+Time elapsed 171 to 172 : 2.263692
+Time elapsed 172 to 173 : 2.180477
+Time elapsed 173 to 174 : 2.262866
+Time elapsed 174 to 175 : 2.286527
+Time elapsed 175 to 176 : 2.206364
+Time elapsed 176 to 177 : 2.205398
+Time elapsed 177 to 178 : 2.122982
+Time elapsed 178 to 179 : 2.136262
+Time elapsed 179 to 180 : 2.113985
+Time elapsed 180 to 181 : 2.203716
+Time elapsed 181 to 182 : 2.187525
+Time elapsed 182 to 183 : 2.411877
+Time elapsed 183 to 184 : 2.608689
+Time elapsed 184 to 185 : 2.362144
+Time elapsed 185 to 186 : 2.454574
+Time elapsed 186 to 187 : 2.294203
+Time elapsed 187 to 188 : 2.289112
+Time elapsed 188 to 189 : 2.239610
+Time elapsed 189 to 190 : 2.216667
+Time elapsed 190 to 191 : 2.168529
+Time elapsed 191 to 192 : 2.155840
+Time elapsed 192 to 193 : 2.100447
+Time elapsed 193 to 194 : 2.263941
+Time elapsed 194 to 195 : 2.196716
+Time elapsed 195 to 196 : 2.387252
+Time elapsed 196 to 197 : 2.384565
+Time elapsed 197 to 198 : 2.284216
+Time elapsed 198 to 199 : 2.318413
+Time elapsed 199 to 200 : 2.325649
+Time elapsed 200 to 201 : 2.196162
+Time elapsed 201 to 202 : 2.139297
+Time elapsed 202 to 203 : 2.410309
+Time elapsed 203 to 204 : 2.079193
+Time elapsed 204 to 205 : 2.259487
+Time elapsed 205 to 206 : 2.126080
+Time elapsed 206 to 207 : 2.293389
+Time elapsed 207 to 208 : 2.290549
+Time elapsed 208 to 209 : 2.222765
+Time elapsed 209 to 210 : 2.188309
+Time elapsed 210 to 211 : 2.173168
+Time elapsed 211 to 212 : 2.133998
+Time elapsed 212 to 213 : 2.099123
+Time elapsed 213 to 214 : 2.155274
+Time elapsed 214 to 215 : 2.121773
+Time elapsed 215 to 216 : 2.178002
+Time elapsed 216 to 217 : 2.882783
+Time elapsed 217 to 218 : 2.444371
+Time elapsed 218 to 219 : 2.305952
+Time elapsed 219 to 220 : 2.212449
+Time elapsed 220 to 221 : 2.195630
+Time elapsed 221 to 222 : 2.205785
+Time elapsed 222 to 223 : 2.458952
+Time elapsed 223 to 224 : 3.030880
+Time elapsed 224 to 225 : 2.177022
+Time elapsed 225 to 226 : 2.042942
+Time elapsed 226 to 227 : 2.160396
+Time elapsed 227 to 228 : 2.060814
+Time elapsed 228 to 229 : 2.297293
+Time elapsed 229 to 230 : 2.514418
+Time elapsed 230 to 231 : 2.329403
+Time elapsed 231 to 232 : 2.307291
+Time elapsed 232 to 233 : 2.270736
+Time elapsed 233 to 234 : 2.178042
+Time elapsed 234 to 235 : 2.150477
+Time elapsed 235 to 236 : 2.583382
+Time elapsed 236 to 237 : 2.356484
+Time elapsed 237 to 238 : 2.231718
+Time elapsed 238 to 239 : 2.172478
+Time elapsed per iteration : 2.270281 s
+
+CG (H1) total time: 323.825
+CG (H1) rate (megadofs x cg_iterations / second): 514.807
+
+CG (L2) total time: 3.57113
+CG (L2) rate (megadofs x cg_iterations / second): 5.07374
+
+Forces total time: 32.9866
+Forces rate (megadofs x timesteps / second): 259.844
+
+UpdateQuadData total time: 184.057
+UpdateQuadData rate (megaquads x timesteps / second): 92.7017
+
+Major kernels total time (seconds): 536.143
+Major kernels total rate (megadofs x time steps / second): 12.0599
